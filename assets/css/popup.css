@@ -1,0 +1,128 @@
+.click-me {
+    position: absolute;
+    bottom: -20%;
+    right: 38%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    transition: all .3s ease;
+ }
+ .click-me :hover {
+    text-shadow: 1px 2px 5px #333;
+    box-shadow: 1px 2px 5px #333;  
+ }
+ 
+ /*=== BUTTON FOR MODAL =================*/
+
+ .btn-modal-close {
+    /* color: #aaa;
+    font-size: 30px;
+    text-decoration: none; */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+ }
+ 
+ .link-modal-close {
+    background: #bdc3c7;
+    border: #fff solid 1px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12pt;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: relative;
+    transition: all .2s ease;
+ }
+ .link-modal-close:hover {
+    border: solid 1px#bdc3c7;
+    background-color: transparent;
+    color: #bdc3c7;
+ }
+ .link-modal-close:active {
+    color: #bdc3c7
+ }
+ 
+ /*=== MODAL ==============================*/
+ .modal:before {
+    content: "";
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    animation: fadein .4s;
+ }
+ .modal:target:before {
+    display: block;
+ }
+ .modal:target .modal-dialog {
+    position: absolute;
+    transform: translate(0px, 300px);
+    transition: transform .4s ease-in-out;
+ }
+ .modal-dialog {
+    background: #fefefe;
+    border: #333 solid 1px;
+    border-radius: 5px;
+    position: fixed;
+    top: -200%;
+    z-index: 11;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    transform: translateY(0);
+ }
+ .used{
+    padding-top: 20px;
+ }
+ .software{
+    color: #4070F4;
+ }
+ .modal-body li{
+    list-style: inside;
+ }
+ 
+ @media only screen and (max-width: 800px + 30px) {
+    .modal-dialog {
+       width: 90%;
+    }
+ }
+ .modal-body {
+    width: 100%;
+    padding: 20px;
+ }
+ .modal-header,
+ .modal-footer {
+    padding: 10px 20px;
+ }
+ .modal-header {
+    border-bottom: #eee solid 1px;
+ }
+ .modal-header h2 {
+    font-size: 18pt;
+ }
+ .modal-footer {
+    border-top: #eee solid 1px;
+    text-align: right;
+ }
+ 
+ @keyframes fadein {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }

@@ -1,0 +1,38 @@
+.logo{
+    padding: 30px 0;
+}
+.logo a{
+    font-size: 40px;
+    text-align: center;
+    color: #302e4d;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px auto;
+    /* background-color: #ededed; */
+    position: relative;
+    padding: 0px 10px;
+    line-height: 50px;
+}
+.logo a::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    /* background-color: #2196f3; */
+    position: absolute;
+    top: 0;
+    left: 50px;
+    border-top: 4px solid #2196f3;
+    border-left: 4px solid #2196f3;
+}
+.logo a::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    border-bottom: 4px solid #2196f3;
+    border-right: 4px solid #2196f3;
+}
