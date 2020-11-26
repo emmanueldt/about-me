@@ -9,15 +9,8 @@
 .home .intro img{
     height: 200px;
     width: 200px;
-    /* border-radius: 50%; */
-    /* border: 5px solid teal; */
-    /* border: 10px solid rgba(192, 181, 224, 0.5); */
     display: inline-block;
 }
-/* .shadow-dark{
-    -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-} */
 .home .intro h1{
     font-size: 30px;
     color: #7d7d7d;

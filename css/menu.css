@@ -21,7 +21,6 @@
     display: inline-block;
     width: 100%;
     margin: 0px auto;
-    /* background-color: #ededed; */
     position: relative;
     padding: 0px 10px;
     line-height: 50px;
@@ -58,8 +57,6 @@
     z-index: 11;
     border-radius: 5px;
     background-color: #fdf9ff;
-    /* display: -ms-flexbox;
-    display: flex; */
     display: none;
     -ms-flex-align: center;
     align-items: center;
@@ -91,7 +88,6 @@
     background-color: #2196f3;
 }
 .navbar .nav{
-    /* background-color: #ededed; */
     margin: 80px 0;
     list-style: none;
 }
@@ -122,7 +118,6 @@
     width: 12px;
 }
 .navbar .copyright-text{
-    /* background-color: #ededed; */
     font-size: 11px;
     color: #7d7d7d;
 }
